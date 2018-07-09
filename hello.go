@@ -9,3 +9,7 @@ func Hello(name string) {
 func Hello1(name string) string {
 	return "Hello " + name
 }
+
+func Hello2(name string){
+	fmt.Println("Hello2, ", name)
+}
